@@ -1,0 +1,93 @@
+                                                                      --.Net Core --
+                                                                  Movie Ticket Booking System 
+ 
+Problem Statement : 
+---------------------
+This project is aimed to provide the customers facility to book tickets for 
+cinema halls online , through which they can book tickets anytime , 
+anywhere.
+The system is basically aimed to provide the customers the complete 
+information of movie ,according to which the customer can book the 
+tickets.
+Abstract : 
+-----------
+The online movie ticket system provides a website for a cinema hall where 
+any internet user can access it. User is required to login to the system and 
+needs to do payment for booking the tickets.
+The customer will need to enter the information related to film after which 
+the system will provide complete information regarding currently running 
+movies with details of show timings
+
+Users : 
+------
+1.Customer :
+2.Admin:
+
+User Functionalities : 
+----------------------
+ 
+1.Customer Functionality : 
+Should Login/Register
+Can book tickets they need after Login /Register
+can view front page without logging in
+They can book tickets based on Movie and its Locaiton
+They Should make payment for booking ticket
+2. Admin Functionality : 
+can upload show details like show and timing
+can edit , delete movies
+can see customer Details and their Bookings
+
+
+Basic Functions : 
+-----------------
+Login 
+Register
+Buy/Booking tickets
+Do Payment
+Display Tickets Booked
+Edit/Delete Movies
+List of Movies
+User Profile
+
+
+DataBase : 
+------------
+Movie:
+• Movie Id
+• Movie Name
+• Genre
+• Description
+• Language
+• Director
+ 
+Show :
+• Show ID
+• Movie Id
+• City
+• Start Time
+• Price
+
+Booking:
+• Booking Id
+• User Id
+• Show Id
+• Total Tickets
+• Total Cost
+• Theater Name
+• Movie Name
+• City
+
+User :
+• User Id
+• First Name
+• Last Name
+• User Name
+• Gender 
+• Email
+ 
+Software Requirements: 
+-----------------------
+Application Layer – MVC Core
+Business/Service Layer – Dot NET Core Web API
+Data Access Layer – ASP.NET Core Entity Framework
+Database Layer – SQL Server Management Studio (SSMS)
